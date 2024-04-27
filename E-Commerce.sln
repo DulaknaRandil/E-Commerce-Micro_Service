@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34414.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{B716A36E-FF2D-4B11-88E9-6CEE4D052B4E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateway", "Gateway", "{2454EC4F-9CA0-4A41-A991-886966C3F3FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Intergration", "Intergration", "{D9552355-3663-4E51-9B17-9E1D308B2C84}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{DF8BC0EC-8860-4D20-BE7B-384AFFE32748}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E-Commerce.Services.CouponAPI", "E-Commerce.Services.CouponAPI\E-Commerce.Services.CouponAPI.csproj", "{74FA59BF-650F-4519-8945-4B1C7402F13E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-commerce.Web", "E-commerce.Web\E-commerce.Web.csproj", "{AF2BA142-D049-4BBD-9180-D5AEB6606963}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74FA59BF-650F-4519-8945-4B1C7402F13E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74FA59BF-650F-4519-8945-4B1C7402F13E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74FA59BF-650F-4519-8945-4B1C7402F13E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74FA59BF-650F-4519-8945-4B1C7402F13E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF2BA142-D049-4BBD-9180-D5AEB6606963}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF2BA142-D049-4BBD-9180-D5AEB6606963}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF2BA142-D049-4BBD-9180-D5AEB6606963}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF2BA142-D049-4BBD-9180-D5AEB6606963}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{74FA59BF-650F-4519-8945-4B1C7402F13E} = {DF8BC0EC-8860-4D20-BE7B-384AFFE32748}
+		{AF2BA142-D049-4BBD-9180-D5AEB6606963} = {B716A36E-FF2D-4B11-88E9-6CEE4D052B4E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E85AC269-802D-4FAF-A07B-0DEB1B7C989D}
+	EndGlobalSection
+EndGlobal

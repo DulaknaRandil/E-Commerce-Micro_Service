@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "2QLMKP4DEqayOCapGI+qgBpdBJItyz0U9MlYo9FlUkhIxCDAtGK387I+oE/7d2GyrX6ConxyDg5UB1khQUdW8Q==",
+  "success": true,
+  "projectFilePath": "D:\\Programming projects\\.NET\\E-commerce\\E-commerce.Web\\E-commerce.Web.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\randi\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
