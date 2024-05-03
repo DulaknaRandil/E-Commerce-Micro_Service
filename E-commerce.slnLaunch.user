@@ -4,11 +4,33 @@
     "Projects": [
       {
         "Name": "E-Commerce.Services.CouponAPI\\E-Commerce.Services.CouponAPI.csproj",
-        "Action": "Start"
+        "Action": "Start",
+        "DebugTarget": "https"
       },
       {
         "Name": "E-commerce.Web\\E-commerce.Web.csproj",
-        "Action": "Start"
+        "Action": "Start",
+        "DebugTarget": "https"
+      },
+      {
+        "Name": "E-Commerce.Services.AuthAPI\\E-Commerce.Services.AuthAPI.csproj",
+        "Action": "Start",
+        "DebugTarget": "https"
+      },
+      {
+        "Name": "E-Commerce.Services.ProductAPI\\E-Commerce.Services.ProductAPI.csproj",
+        "Action": "Start",
+        "DebugTarget": "https"
+      },
+      {
+        "Name": "E-Commerce.Services.ShoppingCartAPI\\E-Commerce.Services.ShoppingCartAPI.csproj",
+        "Action": "Start",
+        "DebugTarget": "https"
+      },
+      {
+        "Name": "E-Commerce.Services.OrderAPI\\E-Commerce.Services.OrderAPI.csproj",
+        "Action": "Start",
+        "DebugTarget": "https"
       }
     ]
   }

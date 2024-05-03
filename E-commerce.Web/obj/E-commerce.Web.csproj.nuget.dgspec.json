@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Programming projects\\.NET\\E-commerce\\E-commerce.Web\\E-commerce.Web.csproj": {}
+    "D:\\Programming projects\\.NET\\E-Commerce\\E-commerce.Web\\E-commerce.Web.csproj": {}
   },
   "projects": {
-    "D:\\Programming projects\\.NET\\E-commerce\\E-commerce.Web\\E-commerce.Web.csproj": {
+    "D:\\Programming projects\\.NET\\E-Commerce\\E-commerce.Web\\E-commerce.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programming projects\\.NET\\E-commerce\\E-commerce.Web\\E-commerce.Web.csproj",
+        "projectUniqueName": "D:\\Programming projects\\.NET\\E-Commerce\\E-commerce.Web\\E-commerce.Web.csproj",
         "projectName": "E-commerce.Web",
-        "projectPath": "D:\\Programming projects\\.NET\\E-commerce\\E-commerce.Web\\E-commerce.Web.csproj",
+        "projectPath": "D:\\Programming projects\\.NET\\E-Commerce\\E-commerce.Web\\E-commerce.Web.csproj",
         "packagesPath": "C:\\Users\\randi\\.nuget\\packages\\",
-        "outputPath": "D:\\Programming projects\\.NET\\E-commerce\\E-commerce.Web\\obj\\",
+        "outputPath": "D:\\Programming projects\\.NET\\E-Commerce\\E-commerce.Web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\randi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,9 +46,81 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "JWT": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "JWT.Extensions.AspNetCore": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "JWTCookieAuthentication": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.IdentityModel": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.IdentityModel.Abstractions": {
+              "target": "Package",
+              "version": "[7.5.1, )"
+            },
+            "Microsoft.IdentityModel.JsonWebTokens": {
+              "target": "Package",
+              "version": "[7.5.1, )"
+            },
+            "Microsoft.IdentityModel.Logging": {
+              "target": "Package",
+              "version": "[7.5.1, )"
+            },
+            "Microsoft.IdentityModel.Protocol.Extensions": {
+              "target": "Package",
+              "version": "[1.0.4.403061554, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[7.5.1, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.5.1, )"
+            },
+            "System.IdentityModel.Tokens.ValidatingIssuerNameRegistry": {
+              "target": "Package",
+              "version": "[4.5.1, )"
+            },
+            "System.Security.Claims": {
+              "target": "Package",
+              "version": "[4.3.0, )"
             }
           },
           "imports": [

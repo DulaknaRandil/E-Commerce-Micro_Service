@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "D:\\Programming projects\\.NET\\E-Commerce\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AF2BA142-D049-4BBD-9180-D5AEB6606963}|E-commerce.Web\\E-commerce.Web.csproj|d:\\programming projects\\.net\\e-commerce\\e-commerce.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AF2BA142-D049-4BBD-9180-D5AEB6606963}|E-commerce.Web\\E-commerce.Web.csproj|solutionrelative:e-commerce.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF2BA142-D049-4BBD-9180-D5AEB6606963}|E-commerce.Web\\E-commerce.Web.csproj|d:\\programming projects\\.net\\e-commerce\\e-commerce.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{AF2BA142-D049-4BBD-9180-D5AEB6606963}|E-commerce.Web\\E-commerce.Web.csproj|solutionrelative:e-commerce.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{AF2BA142-D049-4BBD-9180-D5AEB6606963}|E-commerce.Web\\E-commerce.Web.csproj|d:\\programming projects\\.net\\e-commerce\\e-commerce.web\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF2BA142-D049-4BBD-9180-D5AEB6606963}|E-commerce.Web\\E-commerce.Web.csproj|solutionrelative:e-commerce.web\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -17,33 +13,20 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
+          "DockedWidth": 207,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\Programming projects\\.NET\\E-Commerce\\E-commerce.Web\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "E-commerce.Web\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\Programming projects\\.NET\\E-Commerce\\E-commerce.Web\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "E-commerce.Web\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABLAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-27T09:53:36.777Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "bootstrap.css",
-              "DocumentMoniker": "D:\\Programming projects\\.NET\\E-Commerce\\E-commerce.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-              "RelativeDocumentMoniker": "E-commerce.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-              "ToolTip": "D:\\Programming projects\\.NET\\E-Commerce\\E-commerce.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-              "RelativeToolTip": "E-commerce.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-04-27T09:51:56.92Z",
+              "Title": "CartController.cs",
+              "DocumentMoniker": "D:\\Programming projects\\.NET\\E-Commerce\\E-commerce.Web\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "E-commerce.Web\\Controllers\\CartController.cs",
+              "ToolTip": "D:\\Programming projects\\.NET\\E-Commerce\\E-commerce.Web\\Controllers\\CartController.cs",
+              "RelativeToolTip": "E-commerce.Web\\Controllers\\CartController.cs",
+              "ViewState": "AQIAAHgAAAAAAAAAAAAiwIgAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T04:04:55.133Z",
               "EditorCaption": ""
             }
           ]

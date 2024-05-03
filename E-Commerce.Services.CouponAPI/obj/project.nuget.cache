@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KtPWOeW/ncAtxdjXE9QNbsCA3+/kDzNQdv7vWrW9rzCOeP77UHdVa0wGrZRqZYCA7VM6GRMAGYh9HhJXSCzdOQ==",
+  "dgSpecHash": "giPSuBrRFZoq0Zt+5lkRfkTx1GOxftZ2Rau5C/xnFcxzbWdNLhmUvb4PddIZ5xmceSXItwYr0IqnPp/ARkp20A==",
   "success": true,
-  "projectFilePath": "D:\\Programming projects\\.NET\\E-commerce\\E-Commerce.Services.CouponAPI\\E-Commerce.Services.CouponAPI.csproj",
+  "projectFilePath": "D:\\Programming projects\\.NET\\E-Commerce\\E-Commerce.Services.CouponAPI\\E-Commerce.Services.CouponAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\randi\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\randi\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",

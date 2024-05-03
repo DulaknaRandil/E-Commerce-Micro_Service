@@ -1,4 +1,4 @@
-﻿namespace E_Commerce.Web.Models
+﻿namespace E_commerce.Web.Models
 {
     public class ResponseDto
     {

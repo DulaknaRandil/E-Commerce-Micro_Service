@@ -1,6 +1,5 @@
 ﻿using E_commerce.Web.Models;
 using E_commerce.Web.Service.IService;
-using E_Commerce.Web.Models;
 using Newtonsoft.Json;
 using System.Net;
 using System.Text;
@@ -11,21 +10,27 @@ namespace E_commerce.Web.Service
     public class BaseService : IBaseService
     {
         private readonly IHttpClientFactory _httpClientFactory;
+        private readonly ITokenProvider _tokenProvider;
 
-        public BaseService(IHttpClientFactory httpClientFactory)
+        public BaseService(IHttpClientFactory httpClientFactory, ITokenProvider tokenProvider)
         {
 
             _httpClientFactory = httpClientFactory;
-
+            _tokenProvider = tokenProvider;
         }
-        public async Task<ResponseDto?> SendAsync(RequestDto requestDto)
+        public async Task<ResponseDto?> SendAsync(RequestDto requestDto, bool withBearer = true)
         {
             try
             {
                 HttpClient client = _httpClientFactory.CreateClient("E-CommerceAPI");
                 HttpRequestMessage message = new();
-                message.Headers.Add("Content-Type", "application/json");
+                message.Headers.Add("Accept", "application/json");
                 //token
+                if (withBearer) {
+                    var token = _tokenProvider.GetToken();
+                    message.Headers.Add("Authorization", $"Bearer {token}");
+
+                }
                 message.RequestUri = new Uri(requestDto.Url);
                 if (requestDto.Data != null)
                 {
